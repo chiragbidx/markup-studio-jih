@@ -46,10 +46,10 @@ export default async function DashboardLayout({
           <div className="p-5">
             <div className="flex items-center gap-2.5">
               <div className="grid size-8 place-items-center rounded-lg bg-foreground text-background text-sm font-bold shadow-sm">
-                P
+                CN
               </div>
               {/* Dashboard Text Logo */}
-              <span className="font-semibold tracking-tight">Panda</span>
+              <span className="font-semibold tracking-tight">ClientNest</span>
             </div>
           </div>
 
@@ -66,7 +66,6 @@ export default async function DashboardLayout({
               email={user.email}
               initials={initials}
             />
-
             <div className="ml-auto flex items-center gap-2">
               <ThemeToggle />
               <UserMenu
@@ -77,7 +76,6 @@ export default async function DashboardLayout({
               />
             </div>
           </header>
-
           <main className="flex-1 p-4 sm:p-6 lg:p-8">
             <div className="mx-auto max-w-6xl">{children}</div>
           </main>
